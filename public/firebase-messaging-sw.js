@@ -1,1 +1,1 @@
-importScripts('https://sdk.smartdx.co/Scripts/gcp-push.js');
+// importScripts('https://sdk.smartdx.co/Scripts/gcp-push.js');
