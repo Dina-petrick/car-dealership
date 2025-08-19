@@ -5,7 +5,7 @@ import { ArrowRight, Star, Users, Award, Shield } from 'lucide-react';
 const Home = () => {
 
   const handleCustomEvent = () => {
-      // window?.ReWebSDK?.customEvent({eventName: "getStarted"})
+      window?.ReWebSDK?.customEvent({eventName: "getStarted"})
   }
   const testimonials = [
     {
