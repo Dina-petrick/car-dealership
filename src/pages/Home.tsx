@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Users, Award, Shield } from 'lucide-react';
 
 const Home = () => {
+
+  const handleCustomEvent = () => {
+      // window?.ReWebSDK?.customEvent({eventName: "getStarted"})
+  }
   const testimonials = [
     {
       id: 1,
@@ -75,7 +79,7 @@ const Home = () => {
               to="/contact"
               className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition-all duration-300"
             >
-              Get Started
+              <span onClick={handleCustomEvent}>Get Started</span>
             </Link>
           </div>
         </div>
